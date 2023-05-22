@@ -1,0 +1,410 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3578811800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "I should be able to withdraw money successfully",
+        "description": "",
+        "id": "bank-test;i-should-be-able-to-withdraw-money-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 76300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 384288300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click on \"Customer Login\" Tab",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Customer Login",
+                  "offset": 12
+                }
+              ],
+              "location": "CustomerLoginStepDef.i_click_on_Tab(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 332143200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I search customer that I have created",
+            "match": {
+              "location": "CustomerLoginStepDef.i_search_customer_that_I_have_created()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 48223700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click on \"Login\" Button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Login",
+                  "offset": 12
+                }
+              ],
+              "location": "CustomerLoginStepDef.i_click_on_Button(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 231626700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click on \"Deposit\" tab",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Deposit",
+                  "offset": 12
+                }
+              ],
+              "location": "DepositMoneyStepDef.i_click_on_tab(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 265173900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I enter amount 100",
+            "match": {
+              "arguments": [
+                {
+                  "val": "100",
+                  "offset": 15
+                }
+              ],
+              "location": "DepositMoneyStepDef.i_enter_amount(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 62176300,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I click on \"Deposit\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Deposit",
+                  "offset": 12
+                }
+              ],
+              "location": "DepositMoneyStepDef.i_click_on_button(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 50625000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I click on \"Withdrawal\" Tab next",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Withdrawal",
+                  "offset": 12
+                }
+              ],
+              "location": "WithdrawMoneyStepDef.i_click_on_Tab_next(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2062033500,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I enter withdrawal amount 50",
+            "match": {
+              "arguments": [
+                {
+                  "val": "50",
+                  "offset": 26
+                }
+              ],
+              "location": "WithdrawMoneyStepDef.i_enter_withdrawal_amount(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 59906000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I click on \"Withdraw\" button next",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Withdraw",
+                  "offset": 12
+                }
+              ],
+              "location": "WithdrawMoneyStepDef.i_click_on_button_next(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3032882400,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I verify the \"Transaction Successful\"  message",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Transaction Successful",
+                  "offset": 14
+                }
+              ],
+              "location": "WithdrawMoneyStepDef.i_verify_the_message(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@sanity"
+          }
+        ]
+      }
+    ],
+    "name": "Bank Test",
+    "description": "\r\nAs a customer I should be able to withdraw money successfully",
+    "id": "bank-test",
+    "keyword": "Feature",
+    "uri": "WithdrawMoney.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2166861600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "BankManager should add customer successfully",
+        "description": "",
+        "id": "bank-test;bankmanager-should-add-customer-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 37500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 371736200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "BankManager clicks On \"Bank Manager Login\" Tab",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Bank Manager Login",
+                  "offset": 23
+                }
+              ],
+              "location": "AddCustomerStepDef.bankmanagerClicksOnTab(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 231814600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "BankManager clicks On \"Add Customer\" Tab next",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Add Customer",
+                  "offset": 23
+                }
+              ],
+              "location": "AddCustomerStepDef.bankmanagerClicksOnTabNext(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2075270400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "BankManager enters FirstName",
+            "match": {
+              "location": "AddCustomerStepDef.bankmanagerEntersFirstName()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2075503300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "BankManager enters LastName",
+            "match": {
+              "location": "AddCustomerStepDef.bankmanagerEntersLastName()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2070924100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "BankManager enters PostCode",
+            "match": {
+              "location": "AddCustomerStepDef.bankmanagerEntersPostCode()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 72727400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "BankManager clicks On \"Add Customer\" Button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Add Customer",
+                  "offset": 23
+                }
+              ],
+              "location": "AddCustomerStepDef.bankmanagerClicksOnButton(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 21100,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "popup display",
+            "match": {
+              "location": "AddCustomerStepDef.popupDisplay()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6705100,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "BankManager verifies message \"Customer added successfully\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Customer added successfully",
+                  "offset": 30
+                }
+              ],
+              "location": "AddCustomerStepDef.bankmanagerVerifiesMessage(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9307300,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "BankManager clicks on \"ok\" button on popup.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ok",
+                  "offset": 23
+                }
+              ],
+              "location": "AddCustomerStepDef.bankmanagerClicksOnButtonOnPopup(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@sanity"
+          }
+        ]
+      }
+    ],
+    "name": "Bank Test",
+    "description": "bank manager should be able to add customer successfully",
+    "id": "bank-test",
+    "keyword": "Feature",
+    "uri": "addcustomer.feature"
+  }
+]
